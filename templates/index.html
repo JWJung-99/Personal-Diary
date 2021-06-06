@@ -1,0 +1,33 @@
+<head>
+		<title>Personal Diary</title>
+        <style>
+			div.diary{
+				margin: 20px;
+				padding: 20px;
+				text-align: center;
+				item-align: center;
+			}
+		</style>
+    </head>
+
+    <body>
+        <div class="diary">
+		    <h1 style="font-size:400%; font-family:Lucida Handwriting; text-align: center;">Personal Diary</h1>
+            <pre>
+
+
+
+
+
+
+
+            </pre>
+            {% if logininfo %}
+			<a href="/timeline" style="margin-right:20px; font-family:Noto Sans; font-size:20px; color:#194A7A;"><b>Go To My Diary</b></a>
+			<a href="/logout" style="margin-left:20px; font-family:Noto Sans; font-size:20px; color:#194A7A;"><b>Logout</b></a>
+			{% else %}   
+			<br><br><a href="/login" style="font-family:Noto Sans; font-size:20px; color:#194A7A;"><b>Sign In</b></a>
+			{% endif %}
+        </div>
+	</body>
+</html>

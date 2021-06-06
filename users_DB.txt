@@ -1,0 +1,17 @@
+mysql> CREATE DATABASE users;
+
+mysql> use users;
+
+mysql> CREAT TABLE `user_info`(
+  > `user_ID` varchar(20) NOT NULL,
+  > `user_PW` varchar(20) NOT NULL,
+  > PRIMARY KEY (`user_ID`)
+  > ); 
+
+mysql> CREATE TABLE `diary` (
+  >`Num` int unsigned NOT NULL AUTO_INCREMENT,
+  >`Title` varchar(70) DEFAULT NULL,
+  >`Content` mediumtext,
+  >`WDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  >PRIMARY KEY (`Num`)
+  > );

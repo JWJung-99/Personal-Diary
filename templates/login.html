@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Personal Diary</title>
+        <style>
+			div.diary{
+				margin: 20px;
+				padding: 20px;
+				text-align: center;
+				item-align: center;
+			}
+		</style>
+    </head>
+
+    <body>
+        <div class="diary">
+			<h1 style="font-size:300%; font-family:Lucida Handwriting; text-align: center;">Personal Diary</h1>
+			<p style="font-size:120%; font-family:Noto Sans; text-align: center;"><br /><br /><b>Welcome! Sign in to your account</b></p><br>
+        	<form class="form-signin" method="POST" action="/login">
+				<input type="text" id="ID" name="ID" class="form-control" placeholder="Your E-mail address" requried autofocus style="width:30%; height:10%; font-size:15px; font-family:Noto Sans;"><br><br>
+				<input type="password" id="PW" name="PW" class="form-control" placeholder="Your Password" required style="width:30%; height:10%; font-size:15px; font-family:Noto Sans;"><br><br>
+				<button class="btn btn-primary btn-block" type="submit" style="width:30%; height:10%; background-color:#194A7A; font-size:15px; font-family:Noto Sans; color:white;"><b>Sign In</b></button><br><br>
+			</form>
+
+			<pre style="font-size:120%; font-family:Noto Sans; text-align:center;"><b>Need an account?              <a href="/signup">Sign Up</a></b></pre>
+		</div>
+    </body>
+</html>

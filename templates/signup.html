@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Personal Diary</title>
+        <style>
+			div.diary{
+				margin: 20px;
+				padding: 20px;
+				text-align: center;
+				item-align: center;
+			}
+		</style>
+    </head>
+
+    <body>
+        <div class="diary">
+		    <h1 style="font-size:200%; font-family:Lucida Handwriting;">Personal Diary</h1>
+		    <p style="font-size:120%; font-family:Noto Sans;"><br /><br /><b>Sign up to store your precious memory :)</b></p><br>
+            <form class="form-signin" method="POST" action="/signup">
+                <input type="text" id="ID" name="ID" class="form-control" placeholder="e-mail(ex. myaccount@gmail.com)" required autofocus style="width:30%; height:10%; font-size:15px; font-family:Noto Sans;"><br><br>
+                <input type="password" id="PW" name="PW" class="form-control" placeholder="Create Password" required style="width:30%; height:10%; font-size:15px; font-family:Noto Sans;"><br><br>
+                <input type="checkbox" class="form-control" value="agree" required style="font-size:30px; font-family:Noto Sans;"><b> I agree to your Terms & Privacy Policy</b><br><br>
+                <button class="btn btn-primary" type="submit" style="width:30%; height:10%; background-color:#194A7A; font-size:15px; font-family:Noto Sans; color:white;"><b>Sign Up</b></button><br><br>
+            </form>
+        </div>
+    </body>
+</html>

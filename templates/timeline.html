@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Personal Diary</title>
+        
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <style>
+			div.diary{
+				margin: 20px 80px 20px 80px;
+				padding: 20px;
+			}
+		</style>
+    </head>
+
+    <body>
+        <div class="diary">
+            <h2 style="font-size:250%; font-family:Lucida Handwriting;">Personal Diary</h2>
+            <h5 style="text-align:right"><b>Account : {{ logininfo }} </b></h5><br><br> 
+
+			<button class="btn" type="button" onclick="location.href='/create'" style="margin-left:25px; background-color:#194A7A; font-size:15px; font-family:Noto Sans; color:white;"><b>Create a Diary</b></button>
+			<div style="float:right;">
+				{% if logininfo %}
+				<button class="btn" type="button" onclick="location.href='/logout'" style="margin-right:25px; background-color:#194A7A; font-size:15px; font-family:Noto Sans; color:white;"><b>Logout</b></button>
+				{% endif %}
+			</div>
+
+            <div class="container">
+	            <br><br><br><h1><a style="font-family:Noto Sans; color:#194A7A;"><b>My Diary</b></a></h1><br><br>
+	            <table class="table table-hover">
+		            <thead>
+		                <tr>
+							<th>Num</th>
+							<th>Date</th>
+			                <th>Title</th>
+		                </tr>
+		            </thead>
+
+		            <tbody>
+		            {% for timeline in diarylist %}
+		            <tr>
+						<td>{{timeline['Num']}}</td>
+			            <td><a style="font-family:Noto Sans; color:#194A7A;" href="/timeline/view/{{timeline['Num']}}">{{timeline['Title']}}</a></td>
+						<td>{{timeline['WDate']}}</td>
+		            </tr>
+		            {% endfor %}
+		            </tbody>
+	            </table>
+	        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Diary</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <style>
+			div.diary{
+				margin: 20px 50px 20px 50px;
+				padding: 50px;
+			}
+		</style>
+    </head>
+
+    <body>
+        <div class="diary">
+            <h2 style="font-size:200%; font-family:Lucida Handwriting;">Personal Diary</h2>
+            
+            <div class="container">
+                <div class="header" style="font-family:Noto Sans; color:#194A7A;">
+                    <nav>
+                        <h4 style="text-align:right"><b>Account : {{ logininfo }}</b></h4> 
+                    </nav>
+                </div>
+
+                <section>
+                    <form class="form-horizontal" method="post" action="/create" enctype="multipart/form-data" style="font-family:Noto Sans; color:#194A7A;">
+                        <fieldset>
+                            <legend style="text-align:center; color:#194A7A; font-size:30px;"><b>Create Your Diary</b></legend>
+                            <div class="form-group">
+                                <label class="col-md-12" for="txtTitle" style="font-size:20px;"><b>Title</b></label>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control input-md" id="txtTitle" name="title" placeholder="Create a Title" , autofocus required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-12" for="txtPost" style="font-size:20px;"><b>Memories</b></label>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" id="txtPost" name="content" placeholder="Write your memories..." style="height:260px;" required></textarea>
+                                </div>
+                            </div>
+                            <!--
+                            <div class="form-group">
+                                <label class="col-md-12" for="image" style="font-size:20px;"><b>Photos</b></label>
+                                <div class="col-md-12">
+                                    <input type="file" class="form-control input-md" id="image" name="image" placeholder="Add Image" , autofocus>
+                                </div>
+                            </div>
+                            -->
+
+                            <div class="form-group">
+                                <label class="col-md-12 control-label" for="post"></label>
+                                <div class="col-md-12">
+                                    <input id="post" name="post" class="btn btn-primary" type="submit" value="POST" style="float:right; background-color:#194A7A; font-size:15px; font-family:Noto Sans; color:white; font-weight:bold">
+                                    <button class="btn" type="button" onclick="location.href='/timeline'" style="background-color:#194A7A; font-size:15px; font-family:Noto Sans; color:white;"><b>Back</b></button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+            </div>   
+        </div>
+    </body>
+</html>
