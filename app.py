@@ -1,7 +1,7 @@
 from flask import Flask, render_template, session, url_for, request, redirect
-from werkzeug.utils import secure_filename
+#from werkzeug.utils import secure_filename
 import pymysql
-import os
+#import os
 
 
 app = Flask(__name__)
@@ -118,10 +118,10 @@ def create():
             cursor.execute(query, value)
             conn.commit()
 
-            f = request.files['file']
-            if not os.path.exists('./uploads/'):
-                os.makedirs('./uploads')
-            f.save('./uploads' + secure_filename(f.filename))
+            #f = request.files['file']
+            #if not os.path.exists('./uploads/'):
+            #    os.makedirs('./uploads')
+            #f.save('./uploads' + secure_filename(f.filename))
 
             return redirect(url_for('timeline'))
 
