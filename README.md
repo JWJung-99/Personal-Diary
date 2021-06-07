@@ -9,7 +9,8 @@
 ------------------------------
 
 ### Simple user Manual with Screenshots
-------------------------------
+
+
 
 #### Main Page
 if not signed in
