@@ -4,14 +4,14 @@
 
 ### Simple user Manual with Screenshots
 
-Main Page
-- if not signed in
-![image](https://user-images.githubusercontent.com/84115816/121027154-b305c180-c7e1-11eb-9214-0f2a7f136e18.png)
+####Main Page
+if not signed in
+<img src="https://user-images.githubusercontent.com/84115816/121027154-b305c180-c7e1-11eb-9214-0f2a7f136e18.png" width="200" height="160">
 
-- if signed in
+if signed in
 ![image](https://user-images.githubusercontent.com/84115816/121028089-78e8ef80-c7e2-11eb-8156-987d3fef53f5.png)
 
-Login Page
+####Login Page
 ![image](https://user-images.githubusercontent.com/84115816/121027474-f3653f80-c7e1-11eb-9504-7a7259688533.png)
 
 Login Error
