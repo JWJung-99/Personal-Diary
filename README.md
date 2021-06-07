@@ -1,8 +1,9 @@
 # Personal-Diary
 
-## User Manual Link : https://youtu.be/GFYrOKteuU4
+##### User Manual Link : https://youtu.be/GFYrOKteuU4
 
-## Simple user Manual with Screen shots
+##### Simple user Manual with Screen shots
+
 Main Page
 - if not signed in
 ![image](https://user-images.githubusercontent.com/84115816/121027154-b305c180-c7e1-11eb-9214-0f2a7f136e18.png)
