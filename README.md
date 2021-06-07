@@ -1,8 +1,8 @@
 # Personal-Diary
 
-##### User Manual Link : https://youtu.be/GFYrOKteuU4
+### User Manual YouTube Link : https://youtu.be/GFYrOKteuU4
 
-##### Simple user Manual with Screen shots
+### Simple user Manual with Screenshots
 
 Main Page
 - if not signed in
