@@ -4,9 +4,9 @@
 
 ### Simple user Manual with Screenshots
 
-####Main Page
+#### Main Page
 if not signed in
-<img src="https://user-images.githubusercontent.com/84115816/121027154-b305c180-c7e1-11eb-9214-0f2a7f136e18.png" width="200" height="160">
+<img src="https://user-images.githubusercontent.com/84115816/121027154-b305c180-c7e1-11eb-9214-0f2a7f136e18.png" width="800" height="640">
 
 if signed in
 ![image](https://user-images.githubusercontent.com/84115816/121028089-78e8ef80-c7e2-11eb-8156-987d3fef53f5.png)
