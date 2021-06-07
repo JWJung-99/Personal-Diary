@@ -16,10 +16,7 @@
 
 ------------------------------
 
-### Simple user Manual with Screenshots
-
-
-
+### Simple User Manual with screenshots
 
 
 #### Main Page
