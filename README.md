@@ -1,10 +1,11 @@
 # Personal-Diary
-=========================
+
 
 ### User Manual YouTube Link : https://youtu.be/GFYrOKteuU4
--------------------------
+==============================
 
 ### Simple user Manual with Screenshots
+------------------------------
 
 #### Main Page
 if not signed in
