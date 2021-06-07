@@ -6,7 +6,7 @@
 
 #### Main Page
 if not signed in
-![image](https://user-images.githubusercontent.com/84115816/121027154-b305c180-c7e1-11eb-9214-0f2a7f136e18.png){: width="800" height="640"}{: center}
+![image](https://user-images.githubusercontent.com/84115816/121027154-b305c180-c7e1-11eb-9214-0f2a7f136e18.png){: width="600" height="480"}
 
 if signed in
 ![image](https://user-images.githubusercontent.com/84115816/121028089-78e8ef80-c7e2-11eb-8156-987d3fef53f5.png)
