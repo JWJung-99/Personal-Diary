@@ -2,7 +2,7 @@
 
 
 ### User Manual YouTube Link : https://youtu.be/GFYrOKteuU4
-==============================
+============================================================
 
 ### Simple user Manual with Screenshots
 ------------------------------
