@@ -15,11 +15,11 @@
 #### Main Page
 
 
-if not signed in
+- if not signed in
 ![image](https://user-images.githubusercontent.com/84115816/121027154-b305c180-c7e1-11eb-9214-0f2a7f136e18.png)
 
 
-if signed in
+- if signed in
 ![image](https://user-images.githubusercontent.com/84115816/121028089-78e8ef80-c7e2-11eb-8156-987d3fef53f5.png)
 
 
@@ -53,7 +53,7 @@ if signed in
 ![image](https://user-images.githubusercontent.com/84115816/121028153-87cfa200-c7e2-11eb-8df1-d1d6f7d6928d.png)
 
 
-- with some contents (the newest one first)
+- with some contents (**the newest one first**)
 ![image](https://user-images.githubusercontent.com/84115816/121028686-fa408200-c7e2-11eb-99a0-d53f2a2f9d1b.png)
 
 
