@@ -1,18 +1,17 @@
 # Personal-Diary
 
 
-### User Manual YouTube Link : https://youtu.be/GFYrOKteuU4
-
-
-
-
-------------------------------
-
 ### Prerequisites
 
 1. You must run "app.py" in python
 2. You must run the database MySQL
 3. And then create a new schema 'users' by copying and pasting the contents of "users_DB.txt"
+
+
+------------------------------
+
+
+### User Manual YouTube Link : https://youtu.be/GFYrOKteuU4
 
 
 ------------------------------
