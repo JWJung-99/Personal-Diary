@@ -3,15 +3,15 @@
 
 ### Prerequisites
 
-1. You must run "app.py" in python
-2. You must run the database MySQL
-3. And then create a new schema 'users' by copying and pasting the contents of "users_DB.txt"
+1. You must run "app.py" in python.
+2. You must install MySQL on your PC and run it.
+3. And then you must create a new schema 'users' by copying the contents of "users_DB.txt"
 
 
 ------------------------------
 
 
-### User Manual YouTube Link : https://youtu.be/GFYrOKteuU4
+#### User Manual YouTube Link : https://youtu.be/GFYrOKteuU4
 
 
 ------------------------------
