@@ -11,7 +11,7 @@
 ------------------------------
 
 
-#### User Manual YouTube Link : https://youtu.be/GFYrOKteuU4
+#### User Manual YouTube Link : 
 
 
 ------------------------------
